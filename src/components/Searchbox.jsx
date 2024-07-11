@@ -12,6 +12,7 @@ const Searchbox = () => {
 			<input
 				onFocus={() => setFocus(true)}
 				onBlur={() => setFocus(false)}
+				onkey
 				className={`text-lg text-white bg-transparent outline-none py-2 ml-9 w-full placeholder:text-slate-400`}
 				type='text'
 				placeholder={focus ? 'Search posts or ask a question...' : 'Search'}
