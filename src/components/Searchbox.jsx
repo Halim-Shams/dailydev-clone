@@ -7,7 +7,7 @@ const Searchbox = () => {
 
 	return (
 		<form
-			className={`border-2 border-transparent focus-within:border-2 focus-within:border-slate-500/50 bg-slate-600 w-[34rem] rounded-2xl overflow-hidden flex items-center gap-3 px-4 relative`}>
+			className={`border-2 border-transparent focus-within:border-2 focus-within:border-slate-600/50 bg-slate-700 w-[34rem] rounded-2xl overflow-hidden flex items-center gap-3 px-4 relative`}>
 			<BiSearchAlt className='text-slate-300/70 text-2xl absolute' />
 			<input
 				onFocus={() => setFocus(true)}
