@@ -7,8 +7,8 @@ import {IoBookmarkOutline} from 'react-icons/io5';
 
 const Card = () => {
 	return (
-		<div className='bg-slate-700 border border-slate-500/50 rounded-2xl text-slate-100 px-1.5 py-2'>
-			<div className='p-2.5'>
+		<div className='bg-slate-700 border border-slate-500/50 rounded-2xl text-slate-100 px-1.5 py-2 shadow-lg hover:cursor-pointer hover:border-slate-500'>
+			<div className='p-2.5 flex flex-col gap-4'>
 				<div className='w-8 h-8 bg-slate-700 rounded-full overflow-hidden'>
 					<img
 						className='w-full h-full object-cover'
